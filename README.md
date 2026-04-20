@@ -442,18 +442,3 @@ world_y = cmd.y + fwd * sin(θ) - stb * cos(θ)
 
 ---
 
-## Next Steps / Extension Points
-
-1. **Rendering** — `FormationPlugin.renderInWorldCoords()` is stubbed. Add
-   `GL11.glBegin(GL11.GL_LINES)` calls there for a live grid overlay.
-
-2. **Multiple wings mid-battle** — add a hotkey (e.g. [1]–[9]) in
-   `FormationPlugin.advance()` to switch `config.setActiveWing(n)` and
-   re-inject AI for the new formation.
-
-3. **Enemy threat reaction** — in `FormationShipAI.advance()` you can fall back
-   to the original AI when an enemy is within weapons range, re-engaging
-   formation nav when the threat clears.
-
-4. **Debug markers** — uncomment `engine.addFloatingText(...)` lines in
-   `FormationPlugin.advance()` for a quick visual sanity-check during development.
