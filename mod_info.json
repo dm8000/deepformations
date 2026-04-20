@@ -1,0 +1,13 @@
+{
+    "id": "deep_formations",
+    "name": "Deep Battle Formations",
+    "version": "1.0",
+    "description": "Assign player-fleet ships to a 6x6 grid and hold formation in battle. Press [Z] mid-combat to toggle. Edit formations via the Intel tab.",
+    "gameVersion": "0.98a-RC8",
+    "dependencies": [
+        {"id": "MagicLib",  "name": "MagicLib",  "version": "1.0"},
+        {"id": "lunalib",   "name": "LunaLib",   "version": "1.0"}
+    ],
+    "jars": ["jars/deep_formations.jar"],
+    "modPlugin": "com.mymod.formation.FormationModPlugin"
+}

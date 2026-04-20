@@ -1,0 +1,5 @@
+{
+    "plugins": {
+        "deep_formations_combat_plugin": "com.mymod.formation.FormationPlugin"
+    }
+}

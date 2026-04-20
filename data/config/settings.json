@@ -1,0 +1,8 @@
+{
+    # Registers FormationPlugin as an EveryFrameCombatPlugin.
+    # Starsector merges all mod settings.json "plugins" maps at startup.
+    # The key must be unique across all mods; the value is the fully qualified class name.
+    "plugins": {
+        "deep_formations_combat_plugin": "com.mymod.formation.FormationPlugin"
+    }
+}

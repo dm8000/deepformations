@@ -1,0 +1,36 @@
+plugins {
+    id 'java'
+}
+
+def starsectorDir = "C:/starsector"
+def modsDir       = "$starsectorDir/mods"
+def modId         = "deep_formations"
+
+group   = 'com.mymod'
+version = '1.0'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_7
+    targetCompatibility = JavaVersion.VERSION_1_7
+}
+
+// Force UTF-8 so em-dashes in comments don't cause encoding errors
+compileJava.options.encoding = 'UTF-8'
+
+sourceSets {
+    main {
+        java { srcDirs = ['src'] }
+    }
+}
+
+dependencies {
+    compileOnly fileTree(dir: "$starsectorDir/starsector-core", include: ['*.jar'])
+    compileOnly fileTree(dir: "$modsDir/MagicLib/jars",  include: ['*.jar'])
+    compileOnly fileTree(dir: "$modsDir/LunaLib/jars",   include: ['*.jar'])
+}
+
+jar {
+    archiveFileName = "${modId}.jar"
+    destinationDirectory = file("$modsDir/$modId/jars")
+    from sourceSets.main.output
+}

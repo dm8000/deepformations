@@ -1,0 +1,3 @@
+id,fieldID,fieldType,defaultValue,minValue,maxValue,text,tooltip,tab,requiresRestart
+deep_formations,formation_enabled,Boolean,true,,,Enable Formation AI,"When enabled, ships are automatically navigated to their assigned grid slots in battle.",General,false
+deep_formations,formation_spacing,Int,160,60,400,Formation Spacing (px),"World-pixel distance between adjacent slot centres. 160 = roughly one frigate width apart.",General,false

@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="starfarer.api">
+    <CLASSES>
+      <root url="jar://C:/starsector/starsector-core/starfarer.api.jar!/" />
+      <root url="jar://C:/starsector/starsector-core/lwjgl.jar!/" />
+      <root url="jar://C:/starsector/starsector-core/lwjgl_util.jar!/" />
+      <root url="jar://C:/starsector/mods/MagicLib/jars/MagicLib.jar!/" />
+      <root url="jar://C:/starsector/mods/LunaLib/jars/LunaLib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://C:/starsector/mods/MagicLib/jars/MagicLib.jar!/" />
+      <root url="jar://C:/starsector/mods/MagicLib/jars/MagicLib.jar!/" />
+    </SOURCES>
+  </library>
+</component>
