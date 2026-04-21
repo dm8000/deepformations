@@ -3,7 +3,10 @@ package com.mymod.formation;
 import java.io.Serializable;
 
 /**
- * One of 9 wing formations. Holds a 6x6 grid of SlotData.
+ * One of 9 wing formations. Holds a 7×7 grid of SlotData.
+ * Row 3, Col 3 is the commander/anchor position.
+ * Row 0 = Front, Row 6 = Rear. Col 0 = Port, Col 6 = Starboard.
+ * Center is row 3, col 3. Row 0 = far front, row 6 = far rear. Col 0 = far port, col 6 = far starboard.
  *
  * Row 0 = front (closest to enemies), Row 5 = rear.
  * Col 0 = port  (left when facing forward), Col 5 = starboard.
