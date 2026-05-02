@@ -2,6 +2,8 @@ TLDR:
 
 This is a Starsector mod to enable ship formations, especialized escorting and increased control over friendly ships. 
 
+DOWNLOAD IT HERE https://github.com/dm8000/deepformations/blob/main/deep_formations_mod.rar
+
 
 # Deep Battle Formations — Technical Documentation
 
